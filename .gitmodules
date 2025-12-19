@@ -1,0 +1,12 @@
+[submodule "ros2_ws/src/DynamixelSDK"]
+	path = ros2_ws/src/DynamixelSDK
+	url = https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+[submodule "ros2_ws/src/ld08_driver"]
+	path = ros2_ws/src/ld08_driver
+	url = https://github.com/ROBOTIS-GIT/ld08_driver.git
+[submodule "ros2_ws/src/turtlebot3"]
+	path = ros2_ws/src/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+[submodule "ros2_ws/src/turtlebot3_msgs"]
+	path = ros2_ws/src/turtlebot3_msgs
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
