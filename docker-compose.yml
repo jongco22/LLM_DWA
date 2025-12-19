@@ -1,0 +1,15 @@
+services:
+  gazebo_dwa:
+    container_name: llm_dwa
+    build: .
+    privileged: true
+    network_mode: host
+    ipc: host
+    pid: host
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=:99
+    volumes:
+      - ./ros2_ws:/workspace/ros2_ws
+    command: ["/root/start-novnc.sh"]

@@ -1,0 +1,17 @@
+.env
+**/build/
+**/install/
+**/log/
+param/
+
+*.o
+*.so
+*.a
+*.pyc
+__pycache__/
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
